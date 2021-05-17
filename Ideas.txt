@@ -1,0 +1,20 @@
+ITEMS:-
+yellow umbrella 
+wood train
+red boots
+paintings
+blue french horn
+piano
+basketball hoop
+suits
+
+
+FRONT:-
+"Wait for it" - while loading
+
+
+
+
+
+
+
