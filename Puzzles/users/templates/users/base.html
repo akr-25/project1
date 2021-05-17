@@ -5,17 +5,17 @@
    
     {% if title %}
     <title>
-        {{ title }}
+        Django blog - {{ title }}
     </title>
     {% else %}
     <title>
-        Puzzles Home
+        register    
     </title>
     {% endif %}
 
 
   </head>
-  <body style="background-color:steelblue">
+  <body color = #1eae98>
     <div class = "container">
          {% block content %} {% endblock %}
     </div>

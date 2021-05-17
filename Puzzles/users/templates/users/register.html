@@ -1,6 +1,27 @@
-{% extends 'stuff/base.html' %}
+{% extends 'users/base.html' %}
 
 {% block content %}
-    here you will find suits
+    <div class = "content-section">
+        <form method="POST">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4" >
+                    Signup
+                </legend>
+                {{ form.as_p }}
+
+                <br><br><br>
+                <div class = "form-group" >
+                    <button class="btn btn-outline-info" type="submit">Sign Up</button>
+    
+                </div>
+
+            </fieldset>
+
+            
+
+        </form>
+
+    </div>
 
 {% endblock content %}
