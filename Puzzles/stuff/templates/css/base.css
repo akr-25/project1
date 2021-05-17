@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=KoHo:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+* {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+/* ******************************************NAVBAR****************************************** */
+nav input,
+nav button,
+nav ul a,
+nav ul,
+nav,
+nav img ,
+.searchbar{
+  background-color: #24252a;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 15px 60px;
+}
+
+#puzzle{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+}
+
+nav ul {
+  list-style: none;
+  padding-right: 10px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  padding-left: 25px;
+}
+
+
+.searchbar{
+  display: flex;
+}
+
+
+nav img {
+  width: 25px;
+  height: auto;
+  border-bottom: 2px solid rgb(58, 199, 235);
+}
+
+nav button {
+  background-color: #1fd8bc; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+nav button:hover {
+  background-color: #1cbba3;
+}
+
+nav input {
+  border: none;
+  border-bottom: 2px solid rgb(58, 199, 235);
+  font-size: 20px;
+  width: 130px;
+  color: white;
+  margin-left: 0px;
+}
+
+nav input::placeholder {
+  color: rgb(194, 193, 193);
+}
+
+nav input:focus {
+  border: none;
+  border-bottom: 2px solid rgb(58, 199, 235);
+  outline-offset: 0px;
+  outline: none;
+}
+
